@@ -21,6 +21,5 @@ public class WeatherQueryService {
     public WeatherResponse fetchWeatherDetails(QueryDetails queryDetails)
             throws WeatherForecastServiceException {
         return weatherQueryRepository.fetchWeatherDetails(queryDetails);
-
     }
 }
